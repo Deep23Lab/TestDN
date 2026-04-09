@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 
 const sectionFade = {
-  hidden: { opacity: 0, y: 40 },
+  hidden: { opacity: 1, y: 0 },
   visible: { opacity: 1, y: 0 },
 };
 
@@ -108,32 +108,23 @@ export default function Page() {
         <motion.section
           id="beginning"
           data-section="beginning"
-          initial="hidden"
-          animate="visible"
-          variants={sectionFade}
-          transition={{ duration: 1.1 }}
+          initial={false}
           className="relative overflow-hidden rounded-[36px] border border-white/10 bg-[radial-gradient(circle_at_top,_rgba(243,199,135,0.18),_transparent_40%),linear-gradient(180deg,_#07070d_0%,_#190817_40%,_#2b1a37_100%)] p-10 shadow-glow"
         >
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,_rgba(243,201,135,0.15),_transparent_25%),radial-gradient(circle_at_80%_10%,_rgba(255,115,115,0.12),_transparent_20%)]" />
           <div className="relative grid gap-12 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
             <div className="space-y-6">
               <p className="text-xs uppercase tracking-[0.36em] text-goldsoft/80">The Beginning of Belief</p>
-              <motion.h1
-                initial={{ opacity: 0, y: 16 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.9, ease: 'easeOut' }}
+              <h1
                 className="text-4xl font-semibold leading-tight text-white sm:text-5xl"
               >
                 “I believed he was my forever… I gave him my trust, my love, my future.”
-              </motion.h1>
-              <motion.p
-                initial={{ opacity: 0, y: 24 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 1.1, delay: 0.2, ease: 'easeOut' }}
+              </h1>
+              <p
                 className="max-w-xl text-base text-sand/90 sm:text-lg"
               >
                 Her heart shone bright at the beginning. Over time that glow softened, revealing hidden cracks, sharp silence, and the courage to choose herself again.
-              </motion.p>
+              </p>
             </div>
 
             <div className="relative mx-auto flex h-96 w-full items-end justify-center overflow-hidden rounded-[32px] bg-gradient-to-br from-[#140711] via-[#2f112f] to-[#3a142e] p-6 shadow-xl shadow-black/40 sm:h-[24rem]">
