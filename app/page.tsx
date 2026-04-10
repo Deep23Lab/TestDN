@@ -228,9 +228,9 @@ export default function Page() {
               ))}
             </div>
             <div className="rounded-[28px] border border-white/10 bg-[#1f1520]/80 p-6 text-sand/85">
-              <p className="text-lg font-medium text-goldsoft">He called her pain “natak.”</p>
+              <p className="text-lg font-medium text-goldsoft">Nitish insulted me in a very degrading and disrespectful way.</p>
               <p className="mt-3 leading-7">
-                The insult was not only in the words, but also in the way it erased her reality and made her doubt the voice inside herself.
+                He called me names and said hurtful things that made me feel extremely humiliated and uncomfortable. I was crying, and when I confronted him, I told him he is a very bad person. He lied to me, continued stalking and interacting with other girls, and was dishonest throughout.
               </p>
             </div>
           </motion.article>
@@ -247,7 +247,7 @@ export default function Page() {
             <div className="grid gap-6 lg:grid-cols-[0.8fr_1.2fr]">
               <div className="rounded-[30px] bg-[#2a1726]/90 p-8 text-sand/85 shadow-sm">
                 <p className="text-base leading-7">
-                  The first physical blow, the burn that left a faint symbolic scar. It shows how safety and trust were broken, even when the wound is only seen through memory.
+                  He verbally abused me and also physically hurt me—he kicked me in the stomach, tried to choke me, and slapped me multiple times. Despite seeing me cry, he seemed happy and showed no concern for my pain.
                 </p>
               </div>
               <div className="flex items-center justify-center">
@@ -293,7 +293,7 @@ export default function Page() {
               <h2 className="mt-3 text-3xl font-semibold text-white sm:text-4xl">Broken Promises Dissolving</h2>
             </div>
             <p className="max-w-3xl text-sand/80 leading-8">
-              He spoke of marriage before he spoke with respect. Intimacy became a demand, and the promise she believed in crumbled into dust when her dignity was ignored.
+              He agreed to marry me when asked directly, but when the time came, he refused. He spoke of marriage before he spoke with respect. Intimacy became a demand, and the promise she believed in crumbled into dust when her dignity was ignored.
             </p>
             <div className="relative overflow-hidden rounded-[32px] border border-white/10 bg-[#231426]/80 p-8">
               <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_rgba(255,255,255,0.06),_transparent_35%)]" />
