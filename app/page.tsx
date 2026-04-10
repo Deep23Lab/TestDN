@@ -157,11 +157,6 @@ export default function Page() {
           <motion.article
             id="investment"
             data-section="investment"
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.25 }}
-            variants={sectionFade}
-            transition={{ duration: 0.9 }}
             className="grid gap-8 rounded-[32px] border border-white/10 bg-[#0f0915]/90 p-10 shadow-glow"
           >
             <div className="flex flex-col gap-4">
@@ -187,11 +182,6 @@ export default function Page() {
           <motion.article
             id="cracks"
             data-section="cracks"
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.25 }}
-            variants={sectionFade}
-            transition={{ duration: 0.9, delay: 0.1 }}
             className="grid gap-8 rounded-[32px] border border-white/10 bg-[#120b17]/90 p-10 shadow-glow"
           >
             <div className="grid gap-4 lg:grid-cols-[0.85fr_1.15fr]">
@@ -220,11 +210,6 @@ export default function Page() {
           <motion.article
             id="abuse"
             data-section="abuse"
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.25 }}
-            variants={sectionFade}
-            transition={{ duration: 0.9, delay: 0.2 }}
             className="grid gap-8 rounded-[32px] border border-white/10 bg-[#160c18]/90 p-10 shadow-glow"
           >
             <div>
@@ -253,11 +238,6 @@ export default function Page() {
           <motion.article
             id="boundary"
             data-section="boundary"
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.25 }}
-            variants={sectionFade}
-            transition={{ duration: 0.9, delay: 0.3 }}
             className="grid gap-8 rounded-[32px] border border-white/10 bg-[#190c1a]/90 p-10 shadow-glow"
           >
             <div>
@@ -282,11 +262,6 @@ export default function Page() {
           <motion.article
             id="manipulation"
             data-section="manipulation"
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.25 }}
-            variants={sectionFade}
-            transition={{ duration: 0.9, delay: 0.4 }}
             className="grid gap-10 rounded-[32px] border border-white/10 bg-[#1f0e1e]/90 p-10 shadow-glow"
           >
             <div>
@@ -311,11 +286,6 @@ export default function Page() {
           </motion.article>
 
           <motion.article
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.25 }}
-            variants={sectionFade}
-            transition={{ duration: 0.9, delay: 0.5 }}
             className="grid gap-8 rounded-[32px] border border-white/10 bg-[#1b0c17]/90 p-10 shadow-glow"
           >
             <div>
@@ -336,11 +306,6 @@ export default function Page() {
           <motion.article
             id="betrayal"
             data-section="betrayal"
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.25 }}
-            variants={sectionFade}
-            transition={{ duration: 0.9, delay: 0.6 }}
             className="grid gap-8 rounded-[32px] border border-white/10 bg-[#180912]/90 p-10 shadow-glow"
           >
             <div className="grid gap-6 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
@@ -362,11 +327,6 @@ export default function Page() {
           </motion.article>
 
           <motion.article
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.25 }}
-            variants={sectionFade}
-            transition={{ duration: 0.9, delay: 0.7 }}
             className="grid gap-8 rounded-[32px] border border-white/10 bg-[#140813]/90 p-10 shadow-glow"
           >
             <div className="grid gap-6 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
@@ -384,11 +344,6 @@ export default function Page() {
           </motion.article>
 
           <motion.article
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.25 }}
-            variants={sectionFade}
-            transition={{ duration: 0.9, delay: 0.8 }}
             className="grid gap-8 rounded-[32px] border border-white/10 bg-[#170b14]/90 p-10 shadow-glow"
           >
             <div>
@@ -409,11 +364,6 @@ export default function Page() {
           </motion.article>
 
           <motion.article
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.25 }}
-            variants={sectionFade}
-            transition={{ duration: 0.9, delay: 0.9 }}
             className="grid gap-8 rounded-[32px] border border-white/10 bg-[#140713]/90 p-10 shadow-glow"
           >
             <div>
@@ -434,11 +384,6 @@ export default function Page() {
           </motion.article>
 
           <motion.article
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.25 }}
-            variants={sectionFade}
-            transition={{ duration: 0.9, delay: 1.0 }}
             className="grid gap-8 rounded-[32px] border border-white/10 bg-[#1d0b16]/90 p-10 shadow-glow"
           >
             <div>
@@ -461,11 +406,6 @@ export default function Page() {
           </motion.article>
 
           <motion.article
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.25 }}
-            variants={sectionFade}
-            transition={{ duration: 0.9, delay: 1.1 }}
             className="grid gap-10 rounded-[32px] border border-white/10 bg-[#200a19]/90 p-10 shadow-glow"
           >
             <div>
@@ -498,11 +438,6 @@ export default function Page() {
           </motion.article>
 
           <motion.article
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.25 }}
-            variants={sectionFade}
-            transition={{ duration: 0.9, delay: 1.2 }}
             className="grid gap-8 rounded-[32px] border border-white/10 bg-[#1a0813]/90 p-10 shadow-glow"
           >
             <div>
@@ -515,11 +450,6 @@ export default function Page() {
           </motion.article>
 
           <motion.article
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.25 }}
-            variants={sectionFade}
-            transition={{ duration: 0.9, delay: 1.3 }}
             className="grid gap-8 rounded-[32px] border border-white/10 bg-gradient-to-br from-[#120611] via-[#2a1128] to-[#3b162a]/90 p-10 shadow-glow"
           >
             <div>
@@ -536,11 +466,6 @@ export default function Page() {
           <motion.article
             id="rebirth"
             data-section="rebirth"
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.25 }}
-            variants={sectionFade}
-            transition={{ duration: 0.9, delay: 1.4 }}
             className="grid gap-8 rounded-[32px] border border-white/10 bg-gradient-to-br from-[#1a0c13] via-[#31203f] to-[#4b3225]/90 p-10 shadow-glow"
           >
             <div>
